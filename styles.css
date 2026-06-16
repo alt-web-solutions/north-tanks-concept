@@ -250,13 +250,12 @@ p {
   display: grid;
   place-items: center;
   color: var(--color-primary);
-  font-size: 3.75rem;
-  line-height: 1;
-  font-variation-settings:
-    "FILL" 0,
-    "wght" 500,
-    "GRAD" 0,
-    "opsz" 48;
+}
+.brand__mark img {
+  width: 100%;
+  max-width: 58px;
+  height: auto;
+  display: block;
 }
 .brand__copy {
   display: grid;
