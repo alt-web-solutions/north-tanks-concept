@@ -986,8 +986,10 @@ p {
   .hero__badge {
     width: 135px;
     height: 135px;
-    right: 0.8rem;
-    bottom: 0.8rem;
+    right: auto;
+    left: 0.8rem;
+    top: 0.8rem;
+    bottom: auto;
     border-width: 5px;
   }
   .feature-grid,
